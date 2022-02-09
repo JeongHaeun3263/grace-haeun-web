@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
 	return (
@@ -18,6 +19,14 @@ const Navbar = () => {
 			<Link href='/blog'>
 				<a>Blog</a>
 			</Link>
+			<div className='icons'>
+				<a href='https://www.linkedin.com/in/haeunjeong/' target='_blank'>
+					<FaLinkedin />
+				</a>
+				<a href='https://github.com/jeonghaeun3263' target='_blank'>
+					<FaGithubSquare />
+				</a>
+			</div>
 		</nav>
 	);
 };
