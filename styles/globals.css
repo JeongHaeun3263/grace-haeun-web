@@ -49,3 +49,8 @@ footer {
 	color: #4979ff;
 	text-decoration: underline;
 }
+.works {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+}

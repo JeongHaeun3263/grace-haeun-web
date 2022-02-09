@@ -1,0 +1,25 @@
+.work {
+	display: flex;
+	gap: 2.4rem;
+	border-radius: 11px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.imgbox img {
+	width: 300px;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: 500;
+}
+.description {
+	font-size: 2rem;
+}
+.links {
+	display: flex;
+	gap: 20px;
+	font-size: 2.4rem;
+}
