@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment } from 'react';
 
 const About = () => {
 	return (

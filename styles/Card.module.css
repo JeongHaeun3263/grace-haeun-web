@@ -1,0 +1,45 @@
+.card {
+	border-radius: 11px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.coverImage {
+	width: 100%;
+}
+
+.textbox {
+	padding: 2.4rem;
+}
+
+.title {
+}
+
+.subtitle {
+	color: #777;
+	font-weight: 500;
+}
+
+.date {
+	color: #777;
+	font-size: 1.2rem;
+	text-align: right;
+}
+
+.author {
+	display: flex;
+	align-items: center;
+	gap: 11px;
+	border-top: 1px solid #eee;
+	padding-top: 1.2rem;
+}
+.avatar {
+	width: 50px;
+	border-radius: 50%;
+}
+.fullname {
+	color: #777;
+
+	font-size: 1.4rem;
+}
