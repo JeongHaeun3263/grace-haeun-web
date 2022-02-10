@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Fragment } from 'react';
-import { FaDesktop, FaArrowRight } from 'react-icons/fa';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -28,7 +27,7 @@ export default function Home() {
 							JavaScript, and React
 						</p>
 						<btn href='/works'>
-							<a className={styles.btn}>Go To See My Works</a>
+							<a className={styles.btn}>See My Works</a>
 						</btn>
 					</div>
 				</section>
@@ -40,7 +39,7 @@ export default function Home() {
 							JavaScript, and React
 						</p>
 						<Link href='/blog'>
-							<a className={styles.btn}>Go To Read My Posts</a>
+							<a className={styles.btn}>Read My Posts</a>
 						</Link>
 					</div>
 					<div className={styles.imgbox}>

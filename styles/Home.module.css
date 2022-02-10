@@ -47,5 +47,6 @@
 	border-radius: 11px;
 	background: #37b24d;
 	color: #fff;
+	text-transform: uppercase;
 	cursor: pointer;
 }
