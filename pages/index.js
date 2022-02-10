@@ -27,9 +27,9 @@ export default function Home() {
 							I enjoy working with Front End technologies such as HTML5, CSS3,
 							JavaScript, and React
 						</p>
-						<Link href='/works'>
-							<a className={styles.link}>Go To See My Works</a>
-						</Link>
+						<btn href='/works'>
+							<a className={styles.btn}>Go To See My Works</a>
+						</btn>
 					</div>
 				</section>
 				<section className={styles.section}>
@@ -40,7 +40,7 @@ export default function Home() {
 							JavaScript, and React
 						</p>
 						<Link href='/blog'>
-							<a className={styles.link}>Go To Read My Posts</a>
+							<a className={styles.btn}>Go To Read My Posts</a>
 						</Link>
 					</div>
 					<div className={styles.imgbox}>
