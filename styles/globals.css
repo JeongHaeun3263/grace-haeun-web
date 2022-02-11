@@ -95,17 +95,47 @@ figure {
 	text-align: center;
 }
 
+code {
+	background: #eee;
+	padding: 0.3rem 0.6rem;
+}
+
 pre {
 	margin: 2.4rem auto;
 }
 
-code {
+pre code {
 	border-radius: 11px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 
 .code-filename {
 	margin-top: 2.4rem;
+	font-style: italic;
+	color: #777;
+}
+
+.image-image {
+	margin: 2.4rem auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-image-center {
+	text-align: center;
+}
+.blog-image-left {
+	float: left;
+	margin-right: 2.4rem;
+}
+.blog-image-right {
+	float: right;
+	margin-left: 2.4rem;
+}
+
+.blog-image p {
+	font-size: 1.4rem;
+	font-weight: 400;
 	font-style: italic;
 	color: #777;
 }

@@ -13,7 +13,7 @@ const Blog = ({ posts }) => {
 			</Head>
 			<div className={styles.blog}>
 				{posts.map((post) => (
-					<Card post={post} />
+					<Card key={post.slug} post={post} />
 				))}
 			</div>
 		</Fragment>

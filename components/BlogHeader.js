@@ -1,3 +1,5 @@
+import { urlFor } from '../lib/api';
+
 import styles from '../styles/BlogHeader.module.css';
 
 const BlogHeader = ({ singlePost }) => {
@@ -16,7 +18,10 @@ const BlogHeader = ({ singlePost }) => {
 				<h1 className={styles.title}>{singlePost.title}</h1>
 				<h2 className={styles.subtitle}>{singlePost.subtitle}</h2>
 
-				<img className={styles.main__image} src={singlePost.coverImage} />
+				<img
+					className={styles.main__image}
+					src={urlFor(singlePost.coverImage).width(800).url()}
+				/>
 			</div>
 		</header>
 	);
