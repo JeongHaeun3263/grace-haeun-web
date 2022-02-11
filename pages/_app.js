@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import 'highlight.js/styles/darcula.css';
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {

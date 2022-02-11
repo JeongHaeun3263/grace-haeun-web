@@ -1,14 +1,13 @@
 import { getAllBlogPosts, getSinglePostBySlug } from '../../lib/api';
 import styles from '../../styles/SinglePost.module.css';
+import BlogContent from '../../components/BlogContent';
+import BlogHeader from '../../components/BlogHeader';
 
 const SinglePost = ({ singlePost }) => {
 	return (
 		<article className={styles.post}>
-			<h1 className={styles.title}>{singlePost.title}</h1>
-			<h2 className={styles.subtitle}>{singlePost.subtitle}</h2>
-			<br />
-			<img className={styles.main__image} src={singlePost.coverImage} />
-			<br />
+			<BlogHeader singlePost={singlePost} />
+			<BlogContent content={singlePost.content} />
 		</article>
 	);
 };

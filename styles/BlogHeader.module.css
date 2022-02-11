@@ -1,0 +1,36 @@
+.subtitle {
+	font-weight: 400;
+	color: #777;
+}
+
+.main__image {
+	width: 800px;
+	text-align: center;
+	margin: 2.4rem auto;
+}
+.header__top {
+	margin: 2.4rem auto;
+	padding: 2.4rem 0;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.author {
+	display: flex;
+	align-items: center;
+	gap: 11px;
+}
+.avatar {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.fullname,
+.date {
+	color: #777;
+	font-size: 1.8rem;
+	font-weight: 400;
+	align-content: flex-end;
+}

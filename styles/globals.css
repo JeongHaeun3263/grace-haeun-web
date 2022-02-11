@@ -75,3 +75,37 @@ footer {
 	flex-direction: column;
 	gap: 2.4rem;
 }
+
+/* BLOG CONTENT */
+h1 {
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+p {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+figure {
+	margin: 2.4rem auto;
+	text-align: center;
+}
+
+pre {
+	margin: 2.4rem auto;
+}
+
+code {
+	border-radius: 11px;
+	font-size: 1.6rem;
+}
+
+.code-filename {
+	margin-top: 2.4rem;
+	font-style: italic;
+	color: #777;
+}
