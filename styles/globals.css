@@ -13,6 +13,7 @@
 body {
 	color: #333;
 	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
 	position: relative;
 }
 a {
@@ -29,9 +30,11 @@ nav {
 	z-index: 999;
 	background: #fff;
 }
-
 .container {
 	max-width: 1200px;
+}
+
+.container {
 	margin: auto;
 	padding: 2.4rem 0;
 	display: flex;

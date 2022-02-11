@@ -17,8 +17,9 @@
 	font-weight: 400;
 }
 .about {
-	padding: 2.4rem;
 	max-width: 1200px;
+
+	padding: 2.4rem;
 	margin: auto;
 	font-size: 2rem;
 }
