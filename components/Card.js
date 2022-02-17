@@ -18,7 +18,10 @@ const Card = ({ post }) => {
 					<h1 className={styles.title}>{post.title}</h1>
 					<h2 className={styles.subtitle}>{post.subtitle}</h2>
 					<div className={styles.author}>
-						<img className={styles.avatar} src={post.author?.avatar} />
+						<img
+							className={styles.avatar}
+							src={urlFor(post.author?.avatar).height(50)}
+						/>
 						<span className={styles.fullname}>{post.author?.fullname}</span>
 					</div>
 					<p className={styles.date}>{post.date}</p>
