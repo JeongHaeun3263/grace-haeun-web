@@ -12,19 +12,19 @@ export default function Home() {
 				<meta name='keywords' content='nextjs basic' />
 			</Head>
 			<div className={styles.hero}>
-				<h3 className={styles.text}>Hi there,</h3>
+				<p className={styles.text}>Hi there,</p>
 				<h1 className={styles.title}>I am Grace</h1>
+				<h3 className={styles.subtitle}>a FRONT END WEB developer</h3>
 			</div>
 			<div className={styles.about}>
 				<section className={styles.section}>
-					<div className={styles.imgbox}>
-						<img src='https://via.placeholder.com/300/333' />
-					</div>
+					<Image src='/web.png' width={650} height={500} />
+
 					<div className={styles.textbox}>
-						<h1>I have passion for creating web applications</h1>
+						<h1>I have a passion for creating web applications</h1>
 						<p>
 							I enjoy working with Front End technologies such as HTML5, CSS3,
-							JavaScript, and React
+							JavaScript, React and much more!
 						</p>
 						<Link href='/works' className={styles.btn}>
 							<a className={styles.btn}>See My Works</a>
@@ -33,18 +33,16 @@ export default function Home() {
 				</section>
 				<section className={styles.section}>
 					<div className={styles.textbox}>
-						<h1>I love sharing my learning journey with people</h1>
+						<h1>I always learn and improve my skills</h1>
 						<p>
-							I enjoy working with Front End technologies such as HTML5, CSS3,
-							JavaScript, and React
+							I write blog posts about what I learn and would love to share with
+							people.
 						</p>
 						<Link href='/blog' className={styles.btn}>
 							<a className={styles.btn}>Read My Posts</a>
 						</Link>
 					</div>
-					<div className={styles.imgbox}>
-						<img src='https://via.placeholder.com/300.png/333' />
-					</div>
+					<Image src='/idea.png' width={650} height={500} />
 				</section>
 			</div>
 		</Fragment>
