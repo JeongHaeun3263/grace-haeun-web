@@ -7,6 +7,7 @@ const Card = ({ post }) => {
 		<Link href='/blog/[slug]' as={`/blog/${post.slug}`}>
 			<div className={styles.card}>
 				<img
+					alt='Cover Image'
 					className={styles.coverImage}
 					src={urlFor(post.coverImage)
 						.height(267)

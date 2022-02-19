@@ -17,6 +17,7 @@ const About = () => {
 					width={400}
 					height={400}
 					className={styles.profile}
+					alt='Profile'
 				/>
 				<div className={styles.textbox}></div>
 			</section>

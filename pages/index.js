@@ -18,7 +18,12 @@ export default function Home() {
 			</div>
 			<div className={styles.main}>
 				<section className={styles.section}>
-					<Image src='/web.png' width={650} height={500} />
+					<Image
+						src='/web.png'
+						width={650}
+						height={500}
+						alt='Working on a web application'
+					/>
 					<div className={styles.textbox}>
 						<h1>I have a passion for creating web applications</h1>
 						<p>
@@ -41,7 +46,12 @@ export default function Home() {
 							<a className={styles.btn}>Read My Blog</a>
 						</Link>
 					</div>
-					<Image src='/idea.png' width={650} height={500} />
+					<Image
+						src='/idea.png'
+						width={650}
+						height={500}
+						alt='Learning skills'
+					/>
 				</section>
 			</div>
 		</Fragment>

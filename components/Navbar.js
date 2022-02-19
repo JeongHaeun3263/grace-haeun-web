@@ -22,13 +22,25 @@ const Navbar = () => {
 						<a>Blog</a>
 					</Link>
 					<div className='icons'>
-						<a href='https://github.com/jeonghaeun3263' target='_blank'>
+						<a
+							href='https://github.com/jeonghaeun3263'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<FaGithubAlt />
 						</a>
-						<a href='https://www.linkedin.com/in/haeunjeong/' target='_blank'>
+						<a
+							href='https://www.linkedin.com/in/haeunjeong/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<FaLinkedinIn />
 						</a>
-						<a href='https://twitter.com/jhe3263' target='_blank'>
+						<a
+							href='https://twitter.com/jhe3263'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<FaTwitter />
 						</a>
 					</div>

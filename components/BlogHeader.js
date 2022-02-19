@@ -19,6 +19,7 @@ const BlogHeader = ({ singlePost }) => {
 				<h2 className={styles.subtitle}>{singlePost.subtitle}</h2>
 
 				<img
+					alt='Cover Image'
 					className={styles.main__image}
 					src={urlFor(singlePost.coverImage).width(800).url()}
 				/>

@@ -16,7 +16,7 @@ const BlogContent = ({ content }) => {
 			image: ({ node: { asset, alt, position = 'center' } }) => {
 				return (
 					<div className={`blog-image blog-image-${position}`}>
-						<img src={urlFor(asset).height(300).fit('max').url()} />
+						<img art={alt} src={urlFor(asset).height(300).fit('max').url()} />
 						<p>{alt}</p>
 					</div>
 				);
