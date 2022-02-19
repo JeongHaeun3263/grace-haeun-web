@@ -5,7 +5,7 @@ import styles from '../styles/WorkItem.module.css';
 const WorkItem = ({ work }) => {
 	return (
 		<div className={styles.work}>
-			<a href={work.liveUrl} target='_blank'>
+			<a href={work.liveUrl} target='_blank' rel='noreferrer'>
 				<img src={work.projectImage} alt='Project Image' />
 			</a>
 
