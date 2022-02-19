@@ -15,7 +15,7 @@ const Blog = ({ posts: initialData }) => {
 				<meta name='keywords' content='grace front end developer website' />
 			</Head>
 
-			<div className={styles.blog}>
+			<div className='blog'>
 				{posts.map((post) => (
 					<Card key={post.slug} post={post} />
 				))}

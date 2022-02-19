@@ -22,16 +22,16 @@
 	font-size: 2.4rem;
 	font-weight: 400;
 }
-.about {
-	max-width: 1200px;
-
-	padding: 2.4rem;
+.main {
 	margin: auto;
+	max-width: 1200px;
+	padding: 2.4rem;
 	font-size: 2rem;
 }
 .section {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	margin: 2.4rem auto;
 }
 
 .textbox {

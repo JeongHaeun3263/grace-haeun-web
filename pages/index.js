@@ -14,12 +14,11 @@ export default function Home() {
 			<div className={styles.hero}>
 				<p className={styles.text}>Hi there,</p>
 				<h1 className={styles.title}>I am Grace</h1>
-				<h3 className={styles.subtitle}>a FRONT END WEB developer</h3>
+				<h3 className={styles.subtitle}>A Front End Web Developer</h3>
 			</div>
-			<div className={styles.about}>
+			<div className={styles.main}>
 				<section className={styles.section}>
 					<Image src='/web.png' width={650} height={500} />
-
 					<div className={styles.textbox}>
 						<h1>I have a passion for creating web applications</h1>
 						<p>
@@ -33,13 +32,13 @@ export default function Home() {
 				</section>
 				<section className={styles.section}>
 					<div className={styles.textbox}>
-						<h1>I always learn and improve my skills</h1>
+						<h1>I keep learning to improve my skills</h1>
 						<p>
 							I write blog posts about what I learn and would love to share with
 							people.
 						</p>
 						<Link href='/blog' className={styles.btn}>
-							<a className={styles.btn}>Read My Posts</a>
+							<a className={styles.btn}>Read My Blog</a>
 						</Link>
 					</div>
 					<Image src='/idea.png' width={650} height={500} />

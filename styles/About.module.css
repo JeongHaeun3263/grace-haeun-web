@@ -1,0 +1,20 @@
+.about {
+	max-width: 1200px;
+	margin: 4.8rem auto;
+	display: flex;
+}
+
+.imgbox {
+	padding: 0 0 30px 30px;
+}
+
+.profile {
+	display: inline-block;
+	box-shadow: -30px 30px 0 rgb(208, 0, 0);
+}
+
+.textbox {
+	height: 50vh;
+	background: #ebfbee;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

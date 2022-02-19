@@ -11,10 +11,15 @@
 	width: 300px;
 }
 
+.textbox {
+	position: relative;
+	padding: 1.2rem;
+}
 .title {
-	font-size: 3rem;
+	font-size: 2.4rem;
 	font-weight: 500;
 }
+
 .description {
 	font-size: 2rem;
 }
@@ -22,4 +27,6 @@
 	display: flex;
 	gap: 20px;
 	font-size: 2.4rem;
+	position: absolute;
+	bottom: 1.2rem;
 }
