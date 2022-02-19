@@ -5,11 +5,9 @@ import styles from '../styles/WorkItem.module.css';
 const WorkItem = ({ work }) => {
 	return (
 		<div className={styles.work}>
-			<div className={styles.imgbox}>
-				<a href={work.liveUrl} target='_blank'>
-					<img src={work.projectImage} />
-				</a>
-			</div>
+			<a href={work.liveUrl} target='_blank'>
+				<img src={work.projectImage} />
+			</a>
 
 			<div className={styles.textbox}>
 				<h1 className={styles.title}>{work.title}</h1>

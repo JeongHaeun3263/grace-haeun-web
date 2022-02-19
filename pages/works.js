@@ -13,7 +13,7 @@ const About = ({ works }) => {
 
 			<div className='works'>
 				{works.map((work) => (
-					<WorkItem work={work} />
+					<WorkItem work={work} key={work.title} />
 				))}
 			</div>
 		</Fragment>

@@ -1,2 +1,3 @@
 # Hi there,
-## I am Grace, a web developer.
+
+## I am Grace, a Front End Web developer.
