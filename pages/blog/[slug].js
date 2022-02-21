@@ -18,6 +18,7 @@ export async function getStaticProps({ params, preview = false, previewData }) {
 	const singlePost = await getSinglePostBySlug(params.slug, preview);
 	return {
 		props: { singlePost, preview },
+		revalidate: 1,
 	};
 }
 

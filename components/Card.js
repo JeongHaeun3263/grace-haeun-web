@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import styles from '../styles/Card.module.css';
 import { urlFor } from '../lib/api';
+import styles from '../styles/Card.module.css';
 
 const Card = ({ post }) => {
 	return (
@@ -8,7 +8,7 @@ const Card = ({ post }) => {
 			<div className={styles.card}>
 				<img
 					alt='Cover Image'
-					className={styles.coverImage}
+					className={styles.cover__image}
 					src={urlFor(post.coverImage)
 						.height(267)
 						.crop('center')
@@ -16,15 +16,16 @@ const Card = ({ post }) => {
 						.url()}
 				/>
 				<div className={styles.textbox}>
-					<h1 className={styles.title}>{post.title}</h1>
-					<h2 className={styles.subtitle}>{post.subtitle}</h2>
-					<div className={styles.author}>
-						<img
-							className={styles.avatar}
-							src={urlFor(post.author?.avatar).height(50)}
-						/>
-						<span className={styles.fullname}>{post.author?.fullname}</span>
-					</div>
+					<h1 className={styles.title}>
+						{post.title.lenght > 40
+							? post.title.substr(0, 40) + '...'
+							: post.title}
+					</h1>
+					<h2 className={styles.subtitle}>
+						{post.subtitle.lenght > 40
+							? post.subtitle.substr(0, 40) + '...'
+							: post.subtitle}
+					</h2>
 					<p className={styles.date}>{post.date}</p>
 				</div>
 			</div>

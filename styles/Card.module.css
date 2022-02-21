@@ -26,21 +26,3 @@
 	font-size: 1.2rem;
 	text-align: right;
 }
-
-.author {
-	display: flex;
-	align-items: center;
-	gap: 11px;
-	border-top: 1px solid #eee;
-	padding-top: 1.2rem;
-	margin-top: 2.4rem;
-}
-.avatar {
-	width: 50px;
-	border-radius: 50%;
-}
-.fullname {
-	color: #777;
-
-	font-size: 1.4rem;
-}

@@ -1,5 +1,4 @@
 import { FaCode, FaDesktop } from 'react-icons/fa';
-
 import styles from '../styles/WorkItem.module.css';
 
 const WorkItem = ({ work }) => {

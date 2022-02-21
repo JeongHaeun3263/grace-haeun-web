@@ -11,16 +11,7 @@ const About = () => {
 				<meta name='keywords' content='front end web developer' />
 			</Head>
 
-			<section className={styles.about}>
-				<Image
-					src='/about.jpeg'
-					width={400}
-					height={400}
-					className={styles.profile}
-					alt='Profile'
-				/>
-				<div className={styles.textbox}></div>
-			</section>
+			<section className={styles.about}></section>
 		</Fragment>
 	);
 };
