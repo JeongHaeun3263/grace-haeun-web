@@ -9,7 +9,7 @@ export default function Home() {
 		<Fragment>
 			<Head>
 				<title>GRACE | HOME</title>
-				<meta name='keywords' content='nextjs basic' />
+				<meta name='keywords' content='Grace Web Front End Developer' />
 			</Head>
 			<div className={styles.hero}>
 				<p className={styles.text}>Hi there,</p>

@@ -6,15 +6,17 @@ const Card = ({ post }) => {
 	return (
 		<Link href='/blog/[slug]' as={`/blog/${post.slug}`}>
 			<div className={styles.card}>
-				<img
-					alt='Cover Image'
-					className={styles.cover__image}
-					src={urlFor(post.coverImage)
-						.height(267)
-						.crop('center')
-						.fit('clip')
-						.url()}
-				/>
+				<div className={styles.imgbox}>
+					<img
+						alt='Cover Image'
+						className={styles.cover__image}
+						src={urlFor(post.coverImage)
+							.height(267)
+							.crop('center')
+							.fit('clip')
+							.url()}
+					/>
+				</div>
 				<div className={styles.textbox}>
 					<h1 className={styles.title}>
 						{post.title.lenght > 40

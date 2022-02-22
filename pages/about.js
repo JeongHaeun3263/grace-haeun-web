@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Fragment } from 'react';
-import SocialIcons from '../components/SocialIcons';
 import styles from '../styles/About.module.css';
-import { FaLinkedinIn, FaGithubAlt, FaTwitter } from 'react-icons/fa';
 
 const About = () => {
 	return (
@@ -28,15 +26,13 @@ const About = () => {
 					<h1>Hi there,</h1>
 					<h2>My name is Grace.</h2>
 					<p>
-						I am a Front End Web Devloper. I have a passion for web development
+						I am a Front End Web Developer. I have a passion for web development
 						and I especially enjoy working with front end technologies.
 					</p>
-					<p>
-						I appreciate it interacting with people and inspiring each other.
-					</p>
+					<p>I like interacting with people and inspiring each other.</p>
 					<p>
 						I love exploring new places, breathtaking nature, and amazing food
-						around the world. I have been traveled to 7+ countries, 20+ cities!
+						around the world. I have traveled to 7+ countries, 20+ cities!
 					</p>
 				</div>
 			</section>
