@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 const NotFound = () => {
-	// it will return router object which contains some methods
 	const router = useRouter();
 
 	useEffect(() => {

@@ -14,12 +14,12 @@ const WorkItem = ({ work }) => {
 				<div className={styles.links}>
 					<span>
 						<a href={work.githubUrl} target='_blank' rel='noreferrer'>
-							<FaCode />
+							<FaCode className={styles.icon} />
 						</a>
 					</span>
 					<span>
 						<a href={work.liveUrl} target='_blank' rel='noreferrer'>
-							<FaDesktop />
+							<FaDesktop className={styles.icon} />
 						</a>
 					</span>
 				</div>

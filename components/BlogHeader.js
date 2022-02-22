@@ -7,7 +7,11 @@ const BlogHeader = ({ singlePost }) => {
 		<header>
 			<div className={styles.header__top}>
 				<div className={styles.author}>
-					<img className={styles.avatar} src={singlePost.author?.avatar} />
+					<img
+						alt='Avatar'
+						className={styles.avatar}
+						src={singlePost.author?.avatar}
+					/>
 					<span className={styles.fullname}>{singlePost.author?.fullname}</span>
 				</div>
 				<div>

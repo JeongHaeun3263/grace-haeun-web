@@ -60,7 +60,16 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.hero .title {
+		font-size: 6.2rem;
+	}
+	.hero .subtitle {
+		font-size: 2.4rem;
+	}
 	.section {
 		grid-template-columns: 1fr;
+	}
+	.img {
+		display: none;
 	}
 }

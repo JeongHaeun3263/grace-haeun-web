@@ -1,5 +1,7 @@
 .work {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	gap: 2.4rem;
 	border-radius: 11px;
 	overflow: hidden;
@@ -9,13 +11,17 @@
 
 .work img {
 	width: 300px;
+	margin: auto;
 }
 
 .textbox {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	padding: 1.2rem;
 }
 .title {
+	margin-bottom: 1.2rem;
 	font-size: 2.4rem;
 	font-weight: 500;
 }
@@ -25,8 +31,27 @@
 }
 .links {
 	display: flex;
-	gap: 20px;
+	gap: 10px;
 	font-size: 2.4rem;
-	position: absolute;
-	bottom: 1.2rem;
+}
+
+.links span {
+	background: #eaeaea;
+	padding: 0.6rem 1.2rem;
+	border-radius: 50%;
+}
+.icon {
+	transform: translateY(5px);
+}
+
+@media only screen and (max-width: 768px) {
+	.work {
+		flex-direction: column;
+	}
+	.textbox {
+		text-align: center;
+	}
+	.links {
+		justify-content: center;
+	}
 }
