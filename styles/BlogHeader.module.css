@@ -4,6 +4,7 @@
 }
 
 .main__image {
+	width: 100%;
 	text-align: center;
 	margin: 2.4rem auto;
 }
