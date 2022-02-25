@@ -22,7 +22,7 @@ export default function Home() {
 						src='/web.png'
 						width={650}
 						height={500}
-						alt='Working on a web application'
+						alt='a developer is wokring on a web application'
 					/>
 					<div className={styles.textbox}>
 						<h1>I have a passion for creating web applications</h1>
@@ -47,10 +47,10 @@ export default function Home() {
 						</Link>
 					</div>
 					<Image
-						src='/idea.png'
+						src='/learinng.png'
 						width={650}
 						height={500}
-						alt='Learning skills'
+						alt='a developer is learning new technologies'
 					/>
 				</section>
 			</div>

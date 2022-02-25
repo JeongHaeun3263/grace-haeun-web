@@ -9,10 +9,9 @@
 .imgbox {
 	display: flex;
 	justify-content: center;
-	padding: 1.2rem;
 }
 .textbox {
-	padding: 2.4rem;
+	padding: 0 2.4rem;
 }
 
 .title {
