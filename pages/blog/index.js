@@ -2,7 +2,6 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import { getAllBlogPosts } from '../../lib/api';
 import Card from '../../components/Card';
-import styles from '../../styles/Blog.module.css';
 import { useGetBlogs } from '../../actions';
 
 const Blog = ({ posts: initialData }) => {

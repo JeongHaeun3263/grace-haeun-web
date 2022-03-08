@@ -10,11 +10,7 @@ const Card = ({ post }) => {
 					<img
 						alt='Cover Image'
 						className={styles.cover__image}
-						src={urlFor(post.coverImage)
-							.height(267)
-							.crop('center')
-							.fit('clip')
-							.url()}
+						src={urlFor(post.coverImage).height(245).url()}
 					/>
 				</div>
 				<div className={styles.textbox}>
