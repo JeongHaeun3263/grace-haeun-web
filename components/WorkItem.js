@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FaCode, FaDesktop } from 'react-icons/fa';
 import styles from '../styles/WorkItem.module.css';
 
@@ -5,12 +6,16 @@ const WorkItem = ({ work }) => {
 	return (
 		<div className={styles.work}>
 			<a href={work.liveUrl} target='_blank' rel='noreferrer'>
-				<img src={work.projectImage} alt='Project Image' />
+				<Image
+					src={`/${work.img}.png`}
+					alt='Project Image'
+					width={700}
+					height={400}
+				/>
 			</a>
 
 			<div className={styles.textbox}>
 				<h1 className={styles.title}>{work.title}</h1>
-				<p className={styles.description}>{work.description || ''}</p>
 				<div className={styles.links}>
 					<span>
 						<a href={work.githubUrl} target='_blank' rel='noreferrer'>
@@ -23,6 +28,13 @@ const WorkItem = ({ work }) => {
 						</a>
 					</span>
 				</div>
+				<p className={styles.tags}>
+					{work.tags.map((tag, i) => (
+						<span key={i} className={styles.tag}>
+							{tag}{' '}
+						</span>
+					))}
+				</p>
 			</div>
 		</div>
 	);

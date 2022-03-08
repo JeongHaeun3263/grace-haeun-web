@@ -12,7 +12,6 @@ export default function Home() {
 				<meta name='keywords' content='Grace Web Front End Developer' />
 			</Head>
 			<div className={styles.hero}>
-				<p className={styles.text}>Hi there,</p>
 				<h1 className={styles.title}>I am Grace</h1>
 				<h3 className={styles.subtitle}>A Front End Web Developer</h3>
 			</div>

@@ -20,6 +20,7 @@ a {
 	margin: 0;
 	text-decoration: none;
 	color: #333;
+	overflow: visible;
 }
 
 /* NAVBAR */
@@ -100,7 +101,7 @@ footer {
 }
 
 .works {
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr;
 }
 
 .blog {
@@ -115,10 +116,12 @@ h1 {
 
 h2 {
 	font-size: 3rem;
+	font-weight: 500;
 }
 
 h3 {
 	font-size: 2.4rem;
+	font-weight: 500;
 }
 
 li {
@@ -132,6 +135,7 @@ p {
 	font-weight: 400;
 	line-height: 1.8;
 	margin: 2.4rem auto;
+	width: 100%;
 }
 
 figure {

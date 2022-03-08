@@ -1,4 +1,6 @@
 .work {
+	width: 80%;
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -9,26 +11,31 @@
 		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-.work img {
-	width: 300px;
-	margin: auto;
-}
-
 .textbox {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	padding: 1.2rem;
 }
+
 .title {
-	margin-bottom: 1.2rem;
+	margin-bottom: 2.4rem;
 	font-size: 2.4rem;
 	font-weight: 500;
 }
 
-.description {
-	font-size: 2rem;
+.tags {
+	display: flex;
+	gap: 5px;
 }
+
+.tag {
+	background: #eaeaea;
+	padding: 0.6rem 1.2rem;
+	border-radius: 11px;
+	font-size: 1.4rem;
+}
+
 .links {
 	display: flex;
 	gap: 10px;
@@ -40,6 +47,7 @@
 	padding: 0.6rem 1.2rem;
 	border-radius: 50%;
 }
+
 .icon {
 	transform: translateY(5px);
 }
