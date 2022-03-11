@@ -5,6 +5,14 @@ import WorkItem from '../components/WorkItem';
 const Work = () => {
 	const works = [
 		{
+			id: 3,
+			title: 'Expense Tracker',
+			img: 'expense_tracker',
+			tags: ['React', 'Redux'],
+			githubUrl: 'https://github.com/JeongHaeun3263/expense-tracker',
+			liveUrl: 'https://jeonghaeun3263.github.io/expense-tracker/',
+		},
+		{
 			id: 1,
 			title: 'Card Maker',
 			img: 'card_maker',
