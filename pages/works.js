@@ -33,7 +33,7 @@ const Work = () => {
 		<Fragment>
 			<Head>
 				<title>GRACE | WORKS</title>
-				<meta name='keywords' content='react' />
+				<meta name='keywords' content='Front Project List' />
 			</Head>
 
 			<div className='works'>
