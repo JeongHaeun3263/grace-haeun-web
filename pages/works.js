@@ -8,9 +8,17 @@ const Work = () => {
 			id: 3,
 			title: 'Hello Word',
 			img: 'hello_word',
-			tags: ['React', 'Hooks', 'Context', 'Dictionary API'],
+			tags: ['React', 'Context', 'Dictionary API'],
 			githubUrl: 'https://github.com/JeongHaeun3263/hello-word',
 			liveUrl: 'https://jeonghaeun3263.github.io/hello-word/',
+		},
+		{
+			id: 4,
+			title: 'Expense Tracker',
+			img: 'expense_tracker',
+			tags: ['React', 'Redux'],
+			githubUrl: 'https://github.com/JeongHaeun3263/expense-tracker',
+			liveUrl: 'https://jeonghaeun3263.github.io/expense-tracker/',
 		},
 		{
 			id: 1,
